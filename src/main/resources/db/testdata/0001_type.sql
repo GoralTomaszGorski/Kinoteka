@@ -1,0 +1,15 @@
+insert into type (name, description) values ('Crime', 'In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc.');
+insert into type (name, description) values ('Romance', 'Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl.');
+insert into type (name, description) values ('Thriller', 'Integer ac neque. Duis bibendum.');
+insert into type (name, description) values ('Animation', 'Pellentesque at nulla. Suspendisse potenti.');
+insert into type (name, description) values ('Adventure', 'Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat. In congue.');
+insert into type (name, description) values ('Sci-Fi', 'Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo.');
+insert into type (name, description) values ('Drama', 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue.');
+insert into type (name, description) values ('Action', 'Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat. Praesent blandit.');
+insert into type (name, description) values ('Fantasy', 'In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.');
+insert into type (name, description) values ('Documentary', 'Praesent blandit. Nam nulla.');
+insert into type (name, description) values ('War', 'Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo.');
+insert into type (name, description) values ('Comedy', 'Suspendisse accumsan tortor quis turpis. Sed ante. Vivamus tortor.');
+insert into type (name, description) values ('Musical', 'Sed ante. Vivamus tortor.');
+insert into type (name, description) values ('Horror', 'Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.');
+insert into type (name, description) values ('History', 'Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula.');

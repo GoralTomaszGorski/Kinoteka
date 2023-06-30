@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pl"
+      xmlns:th="https://www.thymeleaf.org"
+      xmlns:layout="http:/www.ultraq.net.nz/thymeleaf/layout"
+      layout:decorate="~{layout}">
+
+<head>
+    <title>Gatunki Filmowe - Kinoteka </title>
+</head>
+<body>
+<main class="main-content" layout:fragment="content">
+    <h2 class="main-content">Gatunki filmowe</h2>
+    <p class="list-description">
+        Poniżej znajdziesz listę gatunków filmowych w Kinoteka.
+        Wybierz coś dla siebie.
+    </p>
+    <ul class="list-border">
+        <li th:each="type: ${types}">
+            <a th:href="@{|/gatunek/${type.name}|}"
+            th:text="${type.name}">
+                Comedy
+
+            </a>
+        </li>
+
+    </ul>
+</main>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pl"
+      xmlns:th="https://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      layout:decorate="~{layout}">
+<head>
+    <title>Dodaj nowy gatunek filmowy do KINOTEKA</title>
+
+</head>
+<body>
+<main class="main-content" layout:fragment="content">
+<h2 class="list-heading">Dodaj nowy gatunek filmowy</h2>
+  <form action="" method="post" class="" th:object="${type}">
+    <label for="typeName">Nazwa</label>
+    <input type="text" id="typeName" placeholder="np.Horror" th:field="*{name}">
+
+    <label for="filmShortDescription">Opis max 500 znaków</label>
+    <textarea id="filmShortDescription" rows="5" th:field="*{description}"></textarea>
+    <button type="submit">Dodaj</button>
+  </form>
+</main>
+</body>
+</html>
